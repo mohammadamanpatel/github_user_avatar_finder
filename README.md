@@ -1,2 +1,2 @@
 ﻿# github_user_avatar_finder
-Run npm run start to run the app
+Run npm start to run the app on http://localhost:3000
