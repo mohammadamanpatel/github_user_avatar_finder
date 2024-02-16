@@ -4,6 +4,7 @@ import "../styles/HomePage.css"
 import { PhotoCard } from '../Component.jsx/PhotoCard';
 export const HomePage = () => {
     const [searchTag,setsearchTag] = useState('Farman');
+    //Now Thats how we will use the things of useDebounce i.e (fetchData and gitHubUserData)
     const {fetchData,gitHubUserData} = useDebounce(searchTag) 
     const debounceUpdateSearch = (event)=>{
         setsearchTag(event.target.value);
